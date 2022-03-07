@@ -1,0 +1,83 @@
+.container-section{
+    padding: 0px 100px;
+    background-color: #fff;
+    /* height: 100vh; */
+    padding-bottom: 6rem;
+}
+.about-content{
+    padding-top: 7rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.about-heading{
+    font-size: 2rem;
+    color: #000;
+    font-weight: 500;
+}
+.text-area{
+    color: #000;
+}
+.body-section{
+    padding-top: 3rem;
+}
+.about-section{
+    display: flex;
+}
+.about-img{
+    width: 20px;
+    padding-left: 2rem;
+    padding-bottom: 4rem;
+}
+.about-pick{
+    width: 350px;  
+}
+.our-title{
+    padding-left: 40rem;
+}
+.text-dark{
+    font-size: 2rem;
+}
+.mission{
+    color: #ff8057;
+}
+.mission-title{
+    padding-top: 1rem;
+    font-size: 15px;
+    line-height: 1.1rem;
+    color: rgb(15, 15, 15);
+}
+.btn-icon{
+    padding-top: 1rem;
+}
+@media screen and (max-width:1350px) {
+    .our-title{
+        padding-left: 30rem;
+    }
+}
+@media screen and (max-width:1230px) {
+    .our-title{
+        padding-left: 30rem;
+    }
+}
+@media screen and (max-width:1150px) {
+    .container-section{
+        padding: 0px 50px;
+    }
+    .about-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .our-title{
+        padding-left: 0rem;
+        padding-top: 5rem;
+        text-align: center;
+        padding-bottom: 5rem;
+    }
+    .about-content{
+        padding-top: 7rem;
+    }
+    .about-pick{
+        padding-right: 2rem;  
+    }
+}
